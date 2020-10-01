@@ -4,17 +4,17 @@
 
 # terraform block cannot be interpolated; sample provided as output of _main
 
-terraform {
-  required_version = ">= 0.12"
+  terraform {
+    required_version = ">= 0.12"
 
-  backend "s3" {
-    # this key must be unique for each layer!
-    bucket  = "999999999999-build-state-bucket"
-    key     = "terraform.development.100data.tfstate"
-    region  = "us-east-1"
-    encrypt = true
+    backend "s3" {
+      # this key must be unique for each layer!
+      bucket  = "210330326423-build-state-bucket"
+      key     = "terraform.development.100data.tfstate"
+      region  = "eu-west-1"
+      encrypt = "true"
+    }
   }
-}
 
 # pinned provider versions
 
