@@ -1,6 +1,6 @@
-app_name = "Magento"
+app_name = "Magento-Tine"
 
-aws_account_id = "999999999999"
+aws_account_id = "210330326423"
 
 environment = "Development"
 
